@@ -56,7 +56,7 @@ const Home = ({ slugs }) => (
           <Text>
             A platform for challenging your friends in competitive programming problems. Two players battle for who can solve the problem first!
           </Text>
-          <Flex>
+          <Flex justifyContent="center">
             <Button m={2} align="center" variant ="outline" textColor="white">Demo</Button>
             <Button m={2} variant ="outline" textColor="white">GitHub</Button>
           </Flex>
@@ -66,7 +66,7 @@ const Home = ({ slugs }) => (
           <Text>
             A tool for artists to create beautiful landing pages for their tracks. Just add your cover image and favorite streaming services.
           </Text>
-          <Flex>
+          <Flex justifyContent="center">
             <Button m={2} align="center" variant ="outline" textColor="white">Demo</Button>
             <Button m={2} variant ="outline" textColor="white">GitHub</Button>
           </Flex>
@@ -76,7 +76,7 @@ const Home = ({ slugs }) => (
           <Text>
             App which isn't done but GraphQL CRUD Auth etc.
           </Text>
-          <Flex>
+          <Flex justifyContent="center">
             <Button m={2} align="center" variant ="outline" textColor="white">Demo</Button>
             <Button m={2} variant ="outline" textColor="white">GitHub</Button>
           </Flex>
@@ -86,7 +86,7 @@ const Home = ({ slugs }) => (
           <Text>
             Lightweight Twitter Bot using Python and AWS-Lambda to execute a tweet which tracks the Covid-19 Vaccine Progress daily. Check it out on GitHub and Twitter:
           </Text>
-          <Flex>
+          <Flex justifyContent="center">
             <Button m={2} align="center" variant ="outline" textColor="white">Twitter</Button>
             <Button m={2} variant ="outline" textColor="white">GitHub</Button>
           </Flex>
